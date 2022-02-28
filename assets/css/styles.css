@@ -1,0 +1,236 @@
+/*
+font-family: 'Oxygen', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+*/
+
+html,body {  height: 100%;}
+body{font-family: 'Source Sans Pro', sans-serif;}
+header[role="banner"] {
+    background-color: transparent;
+    padding: 0 !important ;
+}
+[class*="content-"] {
+    width: 90% !important;
+}
+.logo a{width: 300px;}
+/*
+header{ background: url(../img/fondoHeader.jpg) no-repeat center center ; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+*/
+a:link, a:active, a:visited{ color: #0093dd; }
+a:hover { color: #0093dd; }
+h1, h2 {font-family: 'Oxygen', sans-serif; margin-bottom: 3%;}
+h1 {font-size: 300%;}
+h2 {font-size: 200%;}
+
+.flechas {width: 20%; right: 10%; bottom: 10%; position: absolute;}
+
+
+.nav { text-transform: uppercase; font-weight: 700; font-size: 90%; font-family: 'Oxygen', sans-serif; }
+.dropdown-menu, .dropdown-menu a.dropdown-item {background-color: #0093dd;  font-weight: lighter; font-size: 100%;}
+nav li.efectoMenu a:hover, .dropdown-menu a.dropdown-item:hover, .nav-item.dropdown > a.dropdown-toggle:hover { background-color: #0093dd; color: #fff; }
+nav li.efectoMenu a, .dropdown-menu a.dropdown-item, .nav-item.dropdown > a.dropdown-toggle { background-color: transparent; color: #0093dd;  }
+.dropdown-toggle::after {border-top: none;}
+.nav-item {margin-top: 2%;}
+
+/*
+nav li.efectoMenu a:first-child { -webkit-border-top-left-radius: 5px; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-topleft: 5px; -moz-border-radius-bottomleft: 5px; border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
+*/
+.companyFondo {background: url(../img/imagen1.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+.company2Fondo {background: url(../img/imagen2.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+.servicio1Fondo {background: url(../img/service_di_01.gif) no-repeat left center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+#cf6_image {
+animation-name: cf3FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+animation-direction: alternate;}
+@keyframes cf3FadeInOut {
+0% {
+  background: url(../img/service_di_01.gif) no-repeat left center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
+}
+30% {
+  background: url(../img/service_di_01.gif) no-repeat left center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
+}
+60% {
+  background: url(../img/service_di_02.jpg) no-repeat left center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
+}
+100% {
+  background: url(../img/service_di_03.jpg) no-repeat left center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
+}
+}
+
+
+#cf7_image {
+animation-name: cf4FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+animation-direction: alternate;}
+@keyframes cf4FadeInOut {
+0% {
+  background: url(../img/service_comercial_02.jpg) no-repeat left center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
+}
+100% {
+  background: url(../img/service_comercial_01.gif) no-repeat left center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
+}
+}
+
+.subServicio1Fondo1  {background: url(../img/servicio3_01.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+.subServicio1Fondo2  {background: url(../img/servicio3_02.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+.subServicio1Fondo3  {background: url(../img/servicio3_03.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+.servicio2Fondo {background: url(../img/service_comercial_02.jpg) no-repeat left center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+.subServicio2Fondo1  {background: url(../img/servicio6_01.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+.subServicio2Fondo2  {background: url(../img/servicio6_02.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+.subServicio2Fondo3  {background: url(../img/servicio6_03.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+.subServicio2Fondo4  {background: url(../img/servicio6_04.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+.contactoFondo  {background: url(../img/contacts.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+.fondoPrincipal1  {background: url(../img/filaservicio1.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+/*.pieFondo  {background: url(../img/pie.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}*/
+.fondoBlanco {background-color: #fff !important;}
+
+#navigation{display: none !important;}
+section, .slide {padding-bottom: 1% !important; padding-top: 1% !important;}
+
+.textosGrandes { text-align: center; color: #000;  padding: 2% 5% 0 5%; margin: 10% 5% 0 5%;}
+.textosGrandes p { font-size: 250%; font-weight: lighter; line-height: 110%;}
+.cuadroTexto{ background-color: rgba(0, 0, 0, .8); padding: 5%; margin: 10% 10% 0 10%; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; }
+.cuadroTexto h2 {color: #fff; line-height: 100%; }
+.cuadroTexto p {color: #fff; line-height: 100%; }
+.cuadroTexto p strong{line-height: 120%; font-weight: 400;}
+.cuadroTexto p.titulos { font-size: 140%; font-weight: bolder; line-height: 120%;}
+.interlineadoMinimo{line-height: 110% !important;}
+
+.noMargin {margin: 0 !important;}
+.noPadding {padding: 0 !important;}
+.oculto {display: none;}
+.visible {display: block;}
+
+.cajaInput {border: 1px solid #999;}
+.formContacto {width: 100%; margin: auto;}
+.contactTitle{font-size: 200% !important;  }
+input {font-size: 100% !important; font-weight: 200;}
+
+.btn-naranja { color: #ffffff !important; background-color: #0093dd !important; border-color: #0093dd !important; } 
+.btn-naranja:hover, .btn-naranja:focus, .btn-naranja:active, .btn-naranja.active, .open .dropdown-toggle.btn-naranja { color: #ffffff !important; background-color: #0093dd !important; border-color: #0093dd !important; } 
+.btn-naranja:active, .btn-naranja.active, .open .dropdown-toggle.btn-naranja { background-image: none; } 
+.btn-naranja.disabled, .btn-naranja[disabled], fieldset[disabled] .btn-naranja, .btn-naranja.disabled:hover, .btn-naranja[disabled]:hover, fieldset[disabled] .btn-naranja:hover, .btn-naranja.disabled:focus, .btn-naranja[disabled]:focus, fieldset[disabled] .btn-naranja:focus, .btn-naranja.disabled:active, .btn-naranja[disabled]:active, fieldset[disabled] .btn-naranja:active, .btn-naranja.disabled.active, .btn-naranja[disabled].active, fieldset[disabled] .btn-naranja.active { background-color: #0093dd; border-color: #0093dd; } 
+.btn-naranja .badge { color: #0093dd; background-color: #ffffff; }
+
+.imagenBrilla:hover {
+	animation: bounce 1s;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+
+/*
+azul: 0093dd   0 147 221
+oscuro:   76d0fe
+*/
+
+
+footer {background-color: #002d41;}
+
+.text-white-75 { color: rgba(255, 255, 255, 0.75);}
+
+.btn-rodecas-azul, .btn-rodecas-azul:link, .btn-rodecas-azul:visited{ background-color: #0093dd; color: #fff; border-bottom: 5px solid #0875ac;}
+.btn-rodecas-azul:hover{ border-bottom: 5px solid #0875ac;}
+.btn-rodecas-azul:active { border-bottom: 1px solid #0875ac; transform: translateY(4px);}
+
+h1 {text-align: center; text-transform: uppercase; margin-bottom: 3%; padding-bottom: 3%; border-bottom: 1px solid #0093dd;}
+.seccionNosotros  p, .seccionNosotros h2, .seccionNosotros h3 {text-align: center !important;}
+.noPadNoMar {margin: 0 !important; padding: 0 !important;}
+
+
+/*************************************/
+.snip1581 {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  /*min-width: 250px;
+  max-width: 310px;*/
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: left;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.snip1581 * {
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.snip1581 img {
+  max-width: 100%;
+  vertical-align: top;
+}
+.snip1581 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.snip1581 h3 {
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 3px 0;
+}
+.snip1581 .title1 {
+  font-weight: 700;
+}
+.snip1581 .title2 {
+  color: #0093dd;
+  font-weight: 300;
+}
+.snip1581 .title3 {
+  font-weight: 700;
+  font-size: 25px;
+}
+.snip1581 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.snip1581:hover img,
+.snip1581.hover img {
+  -webkit-transform: scale(1.3) rotate(5deg);
+  transform: scale(1.3) rotate(5deg);
+}
+
+
+.modal-body{padding: 5%;}
+
+
+
+
+
