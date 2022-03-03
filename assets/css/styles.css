@@ -1,17 +1,16 @@
 
-html,body {  height: 100%; margin-top: 50px;}
+html,body {  height: 100%; margin-top: 40px;}
 body{font-family: 'Genos', sans-serif;}
 header[role="banner"] {
     background-color: transparent;
     padding: 0 !important ;
+    margin: 0 !important ;
 }
 [class*="content-"] {
     width: 90% !important;
 }
 .logo a{width: 300px;}
-/*
-header{ background: url(../img/fondoHeader.jpg) no-repeat center center ; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
-*/
+
 a:link, a:active, a:visited{ color: #0093dd; }
 a:hover { color: #0093dd; }
 h1, h2 {margin-bottom: 3%;}
@@ -79,13 +78,14 @@ animation-direction: alternate;}
 .subServicio2Fondo2  {background: url(../img/servicio6_02.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
 .subServicio2Fondo3  {background: url(../img/servicio6_03.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
 .subServicio2Fondo4  {background: url(../img/servicio6_04.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
-.contactoFondo  {background: url(../img/contacts.jpg) no-repeat top center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+.contactoFondo  {background: url(../img/contacts.jpg) no-repeat top left; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
 .fondoPrincipal1  {background: url(../img/filaservicio1.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
 /*.pieFondo  {background: url(../img/pie.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}*/
 .fondoBlanco {background-color: #fff !important;}
 
 #navigation{display: none !important;}
 section, .slide {padding-bottom: 1% !important; padding-top: 1% !important;}
+.navbar-nav a{font-size: 120%;}
 
 .textosGrandes { text-align: center; color: #000;  padding: 2% 5% 0 5%; margin: 10% 5% 0 5%;}
 .textosGrandes p { font-size: 250%; font-weight: lighter; line-height: 110%;}
